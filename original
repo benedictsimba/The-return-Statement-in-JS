@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+
+<head>
+    <script>
+        function concatenate(first, last) {
+            var full = first + last
+            return full;
+        }
+
+        function seconfunction()
+
+        {
+            var result = concatenate('Musyimi', +" " + 'Simba')
+            document.write(result)
+
+        }
+    </script>
+</head>
+
+<body>
+    <p>---------------------------------------------------</p>
+    <input type="button" onclick="seconfunction();" value="NAME" />
+</body>
+
+</html>
